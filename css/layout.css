@@ -12,7 +12,7 @@
    d. Resume Section
    e. Portfolio Section
    f. Call To Action Section
-   g. Testimonials Section
+   g. Quotes Section
    h. Contact Section
    i. Footer
 
@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/header-newyork-background.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -66,7 +66,7 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   color: #d9d9d9;
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
@@ -205,6 +205,9 @@ ul#nav li.current a { color: #F06000; }
    line-height: 30px;
    color: #7A7A7A;
 }
+#about p span {
+  color: #ffffff
+}
 #about .profile-pic {
    position: relative;
    width: 120px;
@@ -325,91 +328,92 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
-}
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.css {
+.matlab {
   	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+  	-moz-animation: matlab 2s ease;
+  	-webkit-animation: matlab 2s ease;
+}
+.python {
+  	width: 35%;
+  	-moz-animation: python 2s ease;
+  	-webkit-animation: python 2s ease;
+}
+.c {
+  	width: 45%;
+  	-moz-animation: c 2s ease;
+  	-webkit-animation: c 2s ease;
 }
 .html5 {
-  	width: 80%;
+  	width: 17%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.css {
+  	width: 12%;
+  	-moz-animation: css 2s ease;
+  	-webkit-animation: css 2s ease;
+}
+.latex {
+  	width: 87%;
+  	-moz-animation: latex 2s ease;
+  	-webkit-animation: latex 2s ease;
 }
 
-@-moz-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
+@-moz-keyframes matlab {
   0%   { width: 0px;  }
   100% { width: 90%;  }
+}
+@-moz-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 35%;  }
+}
+@-moz-keyframes c {
+  0%   { width: 0px;  }
+  100% { width: 45%;  }
 }
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 17%;  }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 12%;  }
+}
+@-moz-keyframes latex {
+  0%   { width: 0px;  }
+  100% { width: 87%;  }
 }
 
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
+@-webkit-keyframes matlab {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
+@-webkit-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 35%;  }
+}
+@-webkit-keyframes c {
+  0%   { width: 0px;  }
+  100% { width: 45%;  }
+}
 @-webkit-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 17%;  }
 }
-@-webkit-keyframes jquery {
+@-webkit-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 12%;  }
+}
+@-webkit-keyframes latex {
+  0%   { width: 0px;  }
+  100% { width: 87%;  }
 }
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
 
+/*
 #portfolio {
    background: #ebeeee;
    padding-top: 90px;
@@ -423,9 +427,9 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 48px;
    color: #95A3A3;
 }
-
+/*
 /* Portfolio Content */
-#portfolio-wrapper .columns { margin-bottom: 36px; }
+/*#portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
    background: #fff;
    overflow: hidden;
@@ -443,7 +447,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* overlay */
-.portfolio-item .item-wrap .overlay {
+/*.portfolio-item .item-wrap .overlay {
    position: absolute;
    left: 0;
    top: 0;
@@ -500,7 +504,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* on hover */
-.portfolio-item:hover .overlay {
+/*.portfolio-item:hover .overlay {
 	opacity: 1;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
@@ -512,7 +516,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* popup modal */
-.popup-modal {
+/*.popup-modal {
 	max-width: 550px;
 	background: #fff;
 	position: relative;
@@ -560,7 +564,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 /* content at start */
-.mfp-fade.mfp-wrap .mfp-content .popup-modal {
+/*.mfp-fade.mfp-wrap .mfp-content .popup-modal {
    opacity: 0;
    -webkit-transition: all 200ms ease-in-out;
 	-moz-transition: all 200ms ease-in-out;
@@ -569,11 +573,11 @@ ul#nav li.current a { color: #F06000; }
    transition: all 200ms ease-in-out;
 }
 /* content fadein */
-.mfp-fade.mfp-wrap.mfp-ready .mfp-content .popup-modal {
+/*.mfp-fade.mfp-wrap.mfp-ready .mfp-content .popup-modal {
    opacity: 1;
 }
 /* content fadeout */
-.mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
+/*.mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
    opacity: 0;
 }
 
@@ -630,15 +634,15 @@ call-to-action .button {
    color: #0D0D0D;
 }
 #call-to-action p span {
-	font-family: 'opensans-semibold', sans-serif; 
+	font-family: 'opensans-semibold', sans-serif;
 	color: #D8D8D8;
 }
 
 /* ------------------------------------------------------------------
-/* g. Testimonials
+/* g. Quotes
 /* ------------------------------------------------------------------ */
 
-#testimonials {
+#quotes {
    background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
@@ -649,19 +653,19 @@ call-to-action .button {
    width: 100%;
    overflow: hidden;
 }
-#testimonials .text-container {
+#quotes .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
 }
-#testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;   
+#quotes h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
 }
-#testimonials h1 span { display: none; }
-#testimonials .header-col { padding-top: 9px; }
-#testimonials .header-col h1:before {
+#quotes h1 span { display: none; }
+#quotes .header-col { padding-top: 9px; }
+#quotes .header-col h1:before {
    font-family: 'FontAwesome';
    content: "\f10d";
 	padding-right: 10px;
@@ -673,30 +677,30 @@ call-to-action .button {
 }
 
 /*	Blockquotes */
-#testimonials blockquote {
+#quotes blockquote {
    margin: 0 0px 30px 0px;
    padding-left: 0;
    position: relative;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
 }
-#testimonials blockquote:before { content: none; }
-#testimonials blockquote p {
+#quotes blockquote:before { content: none; }
+#quotes blockquote p {
    font-family: 'librebaskerville-italic', serif;
    padding: 0;
    font-size: 24px;
    line-height: 48px;
    color: #fff
 }
-#testimonials blockquote cite {
+#quotes blockquote cite {
    display: block;
    font-size: 12px;
    font-style: normal;
    line-height: 18px;
    color: #fff;
 }
-#testimonials blockquote cite:before { content: "\2014 \0020"; }
-#testimonials blockquote cite a,
-#testimonials blockquote cite a:visited { color: #8B9798; border: none }
+#quotes blockquote cite:before { content: "\2014 \0020"; }
+#quotes blockquote cite a,
+#quotes blockquote cite a:visited { color: #8B9798; border: none }
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
@@ -1003,4 +1007,3 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
-
