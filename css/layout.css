@@ -329,12 +329,12 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .matlab {
-  	width: 90%;
+  	width: 95%;
   	-moz-animation: matlab 2s ease;
   	-webkit-animation: matlab 2s ease;
 }
 .python {
-  	width: 35%;
+  	width: 55%;
   	-moz-animation: python 2s ease;
   	-webkit-animation: python 2s ease;
 }
@@ -354,18 +354,18 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: css 2s ease;
 }
 .latex {
-  	width: 87%;
+  	width: 95%;
   	-moz-animation: latex 2s ease;
   	-webkit-animation: latex 2s ease;
 }
 
 @-moz-keyframes matlab {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 95%;  }
 }
 @-moz-keyframes python {
   0%   { width: 0px;  }
-  100% { width: 35%;  }
+  100% { width: 55%;  }
 }
 @-moz-keyframes c {
   0%   { width: 0px;  }
@@ -381,16 +381,16 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes latex {
   0%   { width: 0px;  }
-  100% { width: 87%;  }
+  100% { width: 95%;  }
 }
 
 @-webkit-keyframes matlab {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 95%;  }
 }
 @-webkit-keyframes python {
   0%   { width: 0px;  }
-  100% { width: 35%;  }
+  100% { width: 55%;  }
 }
 @-webkit-keyframes c {
   0%   { width: 0px;  }
@@ -406,7 +406,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes latex {
   0%   { width: 0px;  }
-  100% { width: 87%;  }
+  100% { width: 95%;  }
 }
 
 /* ------------------------------------------------------------------ */
