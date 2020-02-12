@@ -344,12 +344,12 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: c 2s ease;
 }
 .html5 {
-  	width: 17%;
+  	width: 47%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
 .css {
-  	width: 12%;
+  	width: 35%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
