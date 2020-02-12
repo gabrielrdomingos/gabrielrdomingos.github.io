@@ -373,11 +373,11 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 17%;  }
+  100% { width: 47%;  }
 }
 @-moz-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 12%;  }
+  100% { width: 35%;  }
 }
 @-moz-keyframes latex {
   0%   { width: 0px;  }
@@ -398,11 +398,11 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 17%;  }
+  100% { width: 47%;  }
 }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 12%;  }
+  100% { width: 35%;  }
 }
 @-webkit-keyframes latex {
   0%   { width: 0px;  }
